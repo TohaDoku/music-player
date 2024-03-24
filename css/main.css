@@ -67,6 +67,7 @@ h1 {
 
 .main-text-block {
     margin-left: 40px;
+    margin-right: 40px;
 }
 
 .small-green-text {
@@ -78,9 +79,7 @@ h1 {
 
 .main-footer {
     height: 100%;
-    margin-left: 40px;
-    margin-right: 40px;
-    padding-bottom: 40px;
+    width: 100%;
 }
 
 .get-started {
@@ -90,9 +89,11 @@ h1 {
     text-decoration: none;
     font-family: "Roboto", sans-serif;
     display: block;
-    width: 100%;
     text-align: center;
-    margin-top: 150px;
     border-radius: 5px;
     padding: 18px 0;
+    position: absolute;
+    left: 40px;
+    right: 40px;
+    bottom: 30px;
 }
