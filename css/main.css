@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@300;400;500;700;900&display=swap');
+/* font-family: "Montserrat", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* font-family: "Roboto", sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #0e0b1f;
+    font-family: "Montserrat", sans-serif;
+    color: #eeeeee;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.mr-2 {
+    margin-right: 20px;
+}
+
+.mt-3 {
+    margin-top: 30px;
+}
+
+.ms-4 {
+    margin-left: 40px;
+}
+
+.mb-1 {
+    margin-bottom: 10px;
+}
+
+/* Первая страница входа */
+.main-block {
+    max-height: 100vh;
+}
+
+.main-image-block {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    overflow: auto;
+}
+
+.main-image-scroll {
+    width: 356px;
+    height: 407px;
+}
+
+.main-counter {
+    display: flex;
+    justify-content: space-between;
+    width: 45px;
+}
+
+.main-counter-element {
+    width: 5px;
+    height: 5px;
+    background: #cbfb5e;
+}
+
+.main-text-block {
+    margin-left: 40px;
+}
+
+.small-green-text {
+    color: #cbfb5e;
+    font-size: 10px;
+    margin-top: 55px;
+    margin-bottom: 10px;
+}
+
+.main-footer {
+    height: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 40px;
+}
+
+.get-started {
+    background: #cbfb5e;
+    color: #20242f;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;
+    border-radius: 5px;
+    padding: 18px 0;
+}
